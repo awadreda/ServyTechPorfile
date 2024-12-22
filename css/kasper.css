@@ -101,6 +101,7 @@ header {
   width: 100%;
   z-index: 2;
   direction: rtl;
+  background-color:  rgba(0, 0, 0, 0.437)  ;
 }
 header .container {
   display: flex;
@@ -130,9 +131,14 @@ header .logo   {
 
 }
 
-header .logo img {
-  height: 40px;
+header .logo h3 {
+  /* height: 40px; */
+  font-size: 40px; 
+  font-weight: bolder;
+
 }
+
+
 header nav {
   flex: 1;
   display: flex;
@@ -143,6 +149,7 @@ header nav .toggle-menu {
   color: white;
   font-size: 22px;
 }
+
 @media (min-width: 768px) {
   header nav .toggle-menu {
     display: none;
@@ -162,7 +169,7 @@ header nav ul {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgb(0 0 0 / 50%);
+    background-color: rgb(0 0 0 / 80%);
   }
   header nav ul li a {
     padding: 15px !important;
@@ -174,7 +181,10 @@ header nav ul li a {
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+
   transition: 0.3s;
   position: relative;
   z-index: 2;
@@ -215,7 +225,7 @@ header nav .form i {
   left: 0;
   top: 0;
   width: 100%;
-  height: 14%;
+  /* height: 14%; */
   background-color: rgb(0 0 0 / 60%);
 }
 .landing .text {
