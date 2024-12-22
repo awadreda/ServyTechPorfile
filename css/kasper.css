@@ -53,6 +53,7 @@ ul {
 /* Start Components */
 .main-heading {
   text-align: center;
+
 }
 .main-heading h2 {
   font-weight: normal;
@@ -85,7 +86,9 @@ ul {
 }
 .main-heading p {
   width: 550px;
+  
   margin: 0 auto 100px;
+    margin-top: 50px;
   max-width: 100%;
   line-height: 2;
   color: #777;
