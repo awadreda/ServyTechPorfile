@@ -2,7 +2,7 @@
 :root {
   --main-color: #19c8fa;
   /* --main-color: #358856; */
-  --transparent-color: rgb(15 116 143 / 70%);
+  --transparent-color: rgb(15 116 143 / 90%);
   --section-padding: 100px;
 }
 /* End Variables */
@@ -18,7 +18,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Cairo", serif;
+ font-family: "Cairo", serif;
+  font-optical-sizing: auto;
+ 
 }
 ul {
   list-style: none;
@@ -210,7 +212,7 @@ header nav .form i {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 14%;
   background-color: rgb(0 0 0 / 60%);
 }
 .landing .text {
@@ -533,12 +535,109 @@ header nav .form i {
   margin-top: -120px;
   max-width: 100%;
 }
+
+
+
+
 @media (max-width: 767px) {
   .about img {
     bottom: -60px;
     margin-top: -60px;
   }
 }
+
+
+/* General Styles */
+.about {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-heading h2 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Text Section */
+.Text-about h3 {
+  margin-top: 60px;
+  font-size: 2em;
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+.Text-about p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #7f8c8d;
+  text-align: justify;
+}
+
+/* Values Section */
+.values {
+  margin-top: 30px;
+}
+
+.values h4 {
+  font-size: 1.8em;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.values p {
+  font-size: 16px;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values ul li {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.values ul li::before {
+  content: '• ';
+  color: #27ae60;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Contact Info Section */
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info h4 {
+  font-size: 1.8em;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+
+
+
+
+
 /* End About */
 /* Start Stats */
 .stats {

@@ -21,11 +21,15 @@
 <!-- Google Fonts -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" /> -->
-
+<!-- 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
-  </head>
+ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head> 
   <body>
     <!-- Start Header -->
     <header>
@@ -38,11 +42,11 @@
           <i class="fas fa-bars toggle-menu"></i>
           <ul>
             <li><a class="active" href="#">الرئيسية</a></li>
+            <li><a href="#">تواصل معنا</a></li>
             <li><a href="#">الخدمات</a></li>
             <li><a href="#">المشاريع</a></li>
             <li><a href="#">عن الشركة</a></li>
             <li><a href="#">الأسعار</a></li>
-            <li><a href="#">تواصل معنا</a></li>
           </ul>
        
         </nav>
@@ -51,7 +55,7 @@
     <!-- End Header -->
     <!-- Start Landing -->
     <div class="landing">
-      <!-- <div class="overlay"></div> -->
+      <div class="overlay"></div>
       <div class="text">
         <div class="content">
           <h2>
@@ -76,13 +80,13 @@
 <div id="carouselExampleAutoplaying" class="carousel slide MySliderStyle" data-bs-ride="carousel">
   <div class="carousel-inner imgContainerSlider">
     <div  style="height: 100vh;" class="carousel-item active">
-      <img style="height: 100vh;" src="./images/Crops6.jpg" class="d-block w-100" alt="...">
+      <img style="height: 100vh;" src="./images/Crops4.jpg" class="d-block w-100" alt="...">
     </div>
     <div style="height: 100vh;" class="carousel-item">
       <img style="height: 100vh;" src="./images/Crops3.jpg" class="d-block w-100" alt="...">
     </div>
     <div style="height: 100vh;" class="carousel-item">
-      <img style="height: 100vh;" src="./images/Crops4.jpg" class="d-block w-100" alt="...">
+      <img style="height: 100vh;" src="./images/Crops6.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   
@@ -102,6 +106,37 @@
 
     </div>
     <!-- End Landing -->
+
+<!-- Start Contact -->
+<div class="contact">
+  <div class="container">
+    <div class="main-heading">
+      <h2>اتصل بنا</h2>
+      <p>
+        قُربت القوس جيدًا، استيعاب بالدرجة المطلوبة، والتحميل في منتصف الطريق. موريس بلانتت أليكت إليت، إجيه
+        تنتيكت.
+      </p>
+    </div>
+    <div style="direction: rtl;" class="content">
+      <form action="">
+        <input class="main-input" type="text" name="name" placeholder="اسمك" />
+        <input class="main-input" type="email" name="mail" placeholder="بريدك الإلكتروني" />
+        <textarea class="main-input" name="message" placeholder="رسالتك"></textarea>
+        <input type="submit" value="إرسال الرسالة" />
+      </form>
+      <div class="info">
+        <h4>تواصل معنا</h4>
+        <span class="phone">+00 123.456.789</span>
+        <span class="phone">+00 123.456.789</span>
+        <h4>موقعنا</h4>
+        <address>عنوان رائع 17<br />نيويورك، نيويورك<br />123-4567-890<br />الولايات المتحدة</address>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Contact -->
+
+
     <!-- Start Services -->
     <div class="services">
       <div class="container">
@@ -163,82 +198,89 @@
       </div>
     </div> -->
     <!-- End Design -->
-    <!-- Start Portfolio -->
-    <div class="portfolio">
-      <div class="container">
-        <div class="main-heading">
-          <h2>المشروعات</h2>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
-            tincidunt.
-          </p>
-        </div>
-        <!-- <ul class="shuffle">
-          <li class="active">All</li>
-          <li>App</li>
-          <li>Photo</li>
-          <li>Web</li>
-          <li>Print</li>
-        </ul> -->
+
+ 
+
+
+
+   <!-- Start Portfolio -->
+<div class="portfolio">
+  <div class="container">
+    <div class="main-heading">
+      <h2>المشروعات الزراعية</h2>
+      <p>
+        استكشاف مشروعات زراعية مبتكرة في مجال الزراعة الحديثة وتقنيات الإنتاج.
+      </p>
+    </div>
+    <!-- <ul class="shuffle">
+      <li class="active">All</li>
+      <li>App</li>
+      <li>Photo</li>
+      <li>Web</li>
+      <li>Print</li>
+    </ul> -->
+  </div>
+  <div class="imgs-container">
+    <div class="box">
+      <img src="./images/Crops1.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع الزراعة العضوية</h4>
+        <p>الزراعة المستدامة</p>
       </div>
-      <div class="imgs-container">
-        <div class="box">
-          <img src="./images/Crops1.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="./images/Crops4.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="./images/Crops5.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="./images/Crops6.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="./images/Crops7.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="./images/Crops8.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="./images/Crops9.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="./images/Crops3.jpg" alt="" />
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
+    </div>
+    <div class="box">
+      <img src="./images/Crops4.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع زراعة الخضروات</h4>
+        <p>الإنتاج المحلي</p>
       </div>
+    </div>
+    <div class="box">
+      <img src="./images/Crops5.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع الزراعة المائية</h4>
+        <p>الزراعة بدون تربة</p>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./images/Crops6.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع زراعة النباتات العطرية</h4>
+        <p>إنتاج الزيوت العطرية</p>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./images/Crops7.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع زراعة الأشجار المثمرة</h4>
+        <p>تنمية الزراعة التجارية</p>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./images/Crops8.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع الزراعة الذكية</h4>
+        <p>تقنيات الزراعة الحديثة</p>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./images/Crops9.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع الزراعة في البيوت المحمية</h4>
+        <p>الزراعة في بيئة مراقبة</p>
+      </div>
+    </div>
+    <div class="box">
+      <img src="./images/Crops3.jpg" alt="" />
+      <div class="caption">
+        <h4>مشروع الزراعة البستانية</h4>
+        <p>إنتاج الفواكه والخضروات</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Portfolio -->
+
       <!-- <a href="#" class="more">More</a> -->
     </div>
     <!-- End Portfolio -->
@@ -254,19 +296,44 @@
       </div>
     </div>
     <!-- End Video -->
-    <!-- Start About -->
-    <div class="about">
-      <div class="container">
-        <div class="main-heading">
-          <h2>About Us</h2>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
-            tincidunt.
-          </p>
-        </div>
-        <img src="images/about.png" alt="" />
-      </div>
-    </div> -->
+   <!-- Start About -->
+<div class="about" style="direction: rtl;">
+  <div class="container">
+    <div class="main-heading">
+      <h2>عن شركة سيرفيتك</h2>
+    </div>
+    <div class="Text-about">
+      <h3>شركة سيرفيتك للخدمات الزراعية</h3>
+      <p style="font-size: 17px;">
+        شركة سيرفيتك متخصصة في تقديم حلول زراعية مبتكرة لدعم المزارعين وتعزيز الإنتاجية الزراعية. تهدف الشركة إلى تحقيق الاستدامة البيئية من خلال توفير تقنيات زراعية حديثة، مثل أنظمة الري الذكية والبذور عالية الجودة. تقدم سيرفيتك خدمات استشارية وتوريد المعدات والأسمدة، بالإضافة إلى إدارة المشاريع الزراعية وتسويق المنتجات محليًا ودوليًا. تسعى الشركة لتطوير القطاع الزراعي وتحقيق الأمن الغذائي عبر شراكات فعالة مع الهيئات الحكومية والقطاع الخاص.
+      </p>
+    </div>
+
+    <div class="values">
+      <h4>رؤيتنا</h4>
+      <p>نطمح إلى أن نكون الشركة الرائدة في تقديم حلول زراعية مبتكرة مستدامة تساهم في تطوير القطاع الزراعي وتحقيق الأمن الغذائي.</p>
+
+      <h4>رسالتنا</h4>
+      <p>توفير تقنيات زراعية حديثة وخدمات استشارية متكاملة للمزارعين لتحقيق أقصى استفادة من مواردهم وتحقيق تنمية مستدامة في القطاع الزراعي.</p>
+
+      <h4>خدماتنا</h4>
+      <ul>
+        <li>استشارات زراعية مخصصة</li>
+        <li>توريد المعدات الزراعية والأنظمة الذكية</li>
+        <li>إدارة المشاريع الزراعية</li>
+        <li>التسويق المحلي والدولي للمنتجات الزراعية</li>
+      </ul>
+    </div>
+
+    <div class="contact-info">
+      <h4>تواصل معنا</h4>
+      <p><strong>الهاتف:</strong> +00 123 456 789</p>
+      <p><strong>البريد الإلكتروني:</strong> info@servitec.com</p>
+    </div>
+  </div>
+</div>
+<!-- End About -->
+
     <!-- End About -->
     <!-- Start Stats -->
     <!-- <div class="stats">
@@ -360,15 +427,15 @@
     </div> -->
     <!-- End Skills -->
     <!-- Start Quote -->
-    <div class="quote">
+    <!-- <div class="quote">
       <div class="container">
         <q>accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</q>
         <span>John Doe</span>
       </div>
-    </div>
+    </div> -->
     <!-- End Quote -->
     <!-- Start Pricing -->
-    <div class="pricing">
+    <!-- <div class="pricing">
       <div class="container">
         <div class="main-heading">
           <h2>Pricing</h2>
@@ -442,10 +509,10 @@
         <p class="contact-text">Contact us if you have special request</p>
         <a href="#" class="contact-link">Contact Us</a>
       </div>
-    </div>
+    </div> -->
     <!-- End Pricing -->
     <!-- Start Subscribe -->
-    <div class="subscribe">
+    <!-- <div class="subscribe">
       <div class="container">
         <form action="">
           <i class="far fa-envelope fa-lg"></i>
@@ -456,36 +523,9 @@
           Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.
         </p>
       </div>
-    </div>
+    </div> -->
     <!-- End Subscribe -->
-    <!-- Start Contact -->
-    <div class="contact">
-      <div class="container">
-        <div class="main-heading">
-          <h2>Contact Us</h2>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
-            tincidunt.
-          </p>
-        </div>
-        <div class="content">
-          <form action="">
-            <input class="main-input" type="text" name="name" placeholder="Your Name" />
-            <input class="main-input" type="email" name="mail" placeholder="Your Email" />
-            <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" />
-          </form>
-          <div class="info">
-            <h4>Get In Touch</h4>
-            <span class="phone">+00 123.456.789</span>
-            <span class="phone">+00 123.456.789</span>
-            <h4>Where We Are</h4>
-            <address>Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA</address>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Contact -->
+   
     <!-- Start Footer -->
     <div class="footer">
       <div class="container">
