@@ -175,6 +175,8 @@ header nav ul {
     padding: 15px !important;
   }
 }
+
+
 header nav ul li a {
   font-weight: bold;
   padding: 40px 10px;
@@ -208,8 +210,89 @@ header nav .form i {
   top: 50%;
   transform: translateY(-50%);
   right: 0;
+
 }
+
+
+
+
+
+
+.navBoot {
+
+  position: absolute;
+  
+
+}
+
+
+.navBoot li a {
+
+  transition: .3s;
+  font-weight: bold;
+
+  &:hover {
+
+    background-color: rgb(79, 158, 79);
+    color: white;
+
+  }
+
+
+}
+
+
+.navBoot .aLogo {
+
+  
+  font-weight: bold;
+
+      display: flex
+;
+    height: auto;
+    align-items: center;
+    height: 60px;
+}
+
+
+
+.navBoot div a img {
+
+  height: 250px;
+  background-color: #19c8fa;
+  margin-right: 90px;
+ 
+  /* width: 30px; */
+
+  transform: rotate(-90deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* End Header */
+
+
+
+
+
+
+
+
+
+
+
 /* Start Landing */
 .landing {
   min-height: 100vh;
@@ -1133,3 +1216,31 @@ header nav .form i {
   color: var(--main-color);
 }
 /* End Footer */
+
+
+
+
+
+/* boot starp slider */
+
+
+.carousel-item img {
+  height: 400px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures images fill the area without distortion */
+}
+
+
+
+/* boot starp slider */
+
+
+
+
+
+
+
+
+
+
+
+
