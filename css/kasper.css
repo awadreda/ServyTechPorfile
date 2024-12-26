@@ -1234,7 +1234,130 @@ header nav .form i {
 /* boot starp slider */
 
 
+/* chat  gird */
 
+
+/* Set up grid container */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
+  gap: 20px; /* Space between grid items */
+  padding: 20px; /* Padding around the grid */
+}
+
+/* Style for each card */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+/* Style for card image */
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Style for card text */
+.card h3 {
+  margin: 15px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0 15px 15px;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Add hover effect on cards */
+.card:hover {
+  transform: translateY(-10px); /* Elevates the card on hover */
+}
+
+
+
+
+/* chat  gird */
+
+
+
+/* chat video */
+
+
+
+/* تنسيق قسم الفيديو */
+.video-section {
+  background-color: #f4f7f6; /* خلفية مناسبة لموقع زراعي */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.video-section .section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #2d6a4f; /* لون جذاب يتناسب مع الطابع الزراعي */
+}
+
+/* شبكة عرض الفيديو */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* أعمدة مرنة مع أحجام ثابتة */
+  gap: 30px;
+  justify-items: center;
+ 
+ 
+  
+
+}
+
+
+/* تنسيق بطاقة الفيديو */
+.video-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+/* تأكد من أن مقاطع الفيديو تظهر بحجم ثابت */
+.video-card iframe {
+  width: 100%;
+  height:  500px;
+  border: none;
+}
+
+/* تنسيق النص داخل كل بطاقة فيديو */
+.video-description {
+  padding: 15px;
+}
+
+.video-description h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #2d6a4f;
+}
+
+.video-description p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* تأثير Hover على البطاقة */
+.video-card:hover {
+  transform: translateY(-10px); /* رفع البطاقة عند المرور */
+}
+
+
+
+
+/* chat video */
 
 
 
